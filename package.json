@@ -1,0 +1,21 @@
+{
+  "name": "introducao-api-rest",
+  "version": "1.0.0",
+  "description": "Codigos de API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luanavitoria20/Introducao-api-rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luanavitoria20/Introducao-api-rest/issues"
+  },
+  "homepage": "https://github.com/Luanavitoria20/Introducao-api-rest#readme"
+}
