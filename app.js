@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 })
 
-app.get('/', (req, res) => {  
+app.get("/Usuário", (req, res) => {  
   res.send('Olá Usuário!')
 })
 
