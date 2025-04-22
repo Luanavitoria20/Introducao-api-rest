@@ -41,7 +41,7 @@ app.put("/usuario/:id", (req, res)=>{
   const indice = usuarios.findIndex((usuario)=>{
     return usuario.id == id
   })
-
+  
   usuarios[indice].nome = novoNome
   usuarios[indice].email = novoEmail
 
