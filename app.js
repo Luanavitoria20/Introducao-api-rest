@@ -2,6 +2,7 @@ import express from 'express'
 
 import usuariosRoutes from './routes/usuarios.js'
 import fornecedoresRoutes from './routes/fornecedores.js'
+import produtosRoutes from './routes/produtos.js'
 
 const app = express()
 
@@ -13,6 +14,9 @@ app.use("/usuarios",usuariosRoutes)
 
 // Adiciona o roteador de fornecedores
 app.use("/fornecedores",fornecedoresRoutes)
+
+// Adiciona o roteador de produtos
+app.use("/produtos", produtosRoutes)
 
 const port = 3000
 

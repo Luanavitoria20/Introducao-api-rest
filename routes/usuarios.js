@@ -12,7 +12,6 @@ const usuarios = [
   router.post("/criarUsuario", (req, res)=> {
     // adicionar o usuario no banco de dados fake (lista)
     const {nome, email} = req.body
-  
     const novoUsuario = {
       id : usuarios[usuarios.length-1].id + 1,
       nome: nome,
@@ -48,8 +47,8 @@ const usuarios = [
   envie uma resposta(mensagem) com todos os 
   usuarios cadastrasda no "banco de dados fake"
   */
-  router.get('/usuarios', (req, res) => {  
-    
+ router.get('/usuarios', (req, res) => {  
+     
     //res.json(usuarios)
       res.status(200).json(usuarios)
   
